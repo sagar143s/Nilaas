@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "NILAAS",
+    "heading": "FAMILY SHOPPING STATION",
+    "bgImg": "1.webp",
+    "btnText": "Discover More",
+    "btnLink": "nilaas"
+  },
+  {
+    "id": 2,
+    "title": "NILAAS",
+    "heading": "ULTIMATE SPORTS SHOP",
+    "bgImg": "4.webp",
+    "btnText": "Discover More",
+    "btnLink": "nilaas"
+  },
+  {
+    "id": 3,
+    "title": "NILAAS",
+    "heading": "MAKE YOUR OWN WAY",
+    "bgImg": "slider-authentic-studio-slide-01-bg.jpg",
+    "btnText": "Discover More",
+    "btnLink": "nilaas"
+  },
+  {
+    "id": 4,
+    "title": "NILAAS",
+    "heading": "ULTIMATE FASHION HUB",
+    "bgImg": "img02.jpg",
+    "btnText": "Discover More",
+    "btnLink": "nilaas"
+  },
+  {
+    "id": 5,
+    "title": "NILAAS",
+    "heading": "SUSTAINABLE SHOE DESIGN",
+    "bgImg": "slider-authentic-studio-slide-03-bg.jpg",
+    "btnText": "Discover More",
+    "btnLink": "nilaas"
+  },
+  {
+    "id": 6,
+    "title": "NILAAS",
+    "heading": "CREATING TOMORROW'S FRAGRANCES",
+    "bgImg": "4.jpg",
+    "btnText": "Discover More",
+    "btnLink": "argeville"
+  }
+]

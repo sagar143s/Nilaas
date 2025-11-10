@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "Home",
+    "link": "/",
+    "subMenu": false
+  },
+  {
+    "id": 2,
+    "title": "About Us",
+    "link": "/",
+    "subMenu": false
+  },
+  {
+    "id": 3,
+    "title": "Portfolios",
+    "link": "/",
+    "subMenu": false
+  },
+  {
+    "id": 4,
+    "title": "Contact Us",
+    "link": "/",
+    "megaMenu": false
+  }
+]
+

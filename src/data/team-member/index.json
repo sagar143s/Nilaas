@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "name": "Ghodratollah Abbas Shoja",
+    "designation": "CHAIRMAN",
+    "thumb": "team-1.jpg",
+    "socials": [
+      {
+        "id": 1,
+        "media": "facebook",
+        "username": "rajuahammadfans"
+      },
+      {
+        "id": 2,
+        "media": "github",
+        "username": "rajuahammadfans"
+      },
+      {
+        "id": 3,
+        "media": "twitter",
+        "username": "rajuahammadfans"
+      }
+    ]
+  },
+
+  {
+    "id": 3,
+    "name": "Kamal Korek",
+    "designation": "BUSINESS HEAD",
+    "thumb": "team-3.jpg",
+    "socials": [
+      {
+        "id": 1,
+        "media": "facebook",
+        "username": "rajuahammadfans"
+      },
+      {
+        "id": 2,
+        "media": "github",
+        "username": "rajuahammadfans"
+      },
+      {
+        "id": 3,
+        "media": "twitter",
+        "username": "rajuahammadfans"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Mohammad Shoja",
+    "designation": "OPERATION EXECUTIVE",
+    "thumb": "team-4.jpg",
+    "socials": [
+      {
+        "id": 1,
+        "media": "facebook",
+        "username": "rajuahammadfans"
+      },
+      {
+        "id": 2,
+        "media": "github",
+        "username": "rajuahammadfans"
+      },
+      {
+        "id": 3,
+        "media": "twitter",
+        "username": "rajuahammadfans"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Evangelina Sulit",
+    "designation": "BRAND MANAGER",
+    "thumb": "team-5.jpg",
+    "socials": [
+      {
+        "id": 1,
+        "media": "facebook",
+        "username": "rajuahammadfans"
+      },
+      {
+        "id": 2,
+        "media": "github",
+        "username": "rajuahammadfans"
+      },
+      {
+        "id": 3,
+        "media": "twitter",
+        "username": "rajuahammadfans"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Deepak C",
+    "designation": "CHIEF FINANCE CONTROLLER",
+    "thumb": "team-6.jpg",
+    "socials": [
+      {
+        "id": 1,
+        "media": "facebook",
+        "username": "rajuahammadfans"
+      },
+      {
+        "id": 2,
+        "media": "github",
+        "username": "rajuahammadfans"
+      },
+      {
+        "id": 3,
+        "media": "twitter",
+        "username": "rajuahammadfans"
+      }
+    ]
+  }
+]
