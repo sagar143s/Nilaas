@@ -17,7 +17,7 @@ import CallToAction from "container/call-to-action/pages/CallToActionOne";
 // import FooterOne from "container/footer/FooterOne";
 import Worksecond from "container/work/worksecond"
 import Activities from "container/work/activities"
-import Videomain from "container/work/video"
+// import Videomain from "container/work/video"
 import { Container } from 'react-bootstrap';
 import TeamMembers from "container/team-member/pages/TeamMemberGrid";
 import Video from '../../components/videos/aboutus'
