@@ -8,12 +8,12 @@ import PopupMobileMenu from "components/popup/PopupMobileMenu";
 import Breadcrumb from "components/breadcrumb/BreadcrumbTwo";
 import breadcrumbBg from "assets/img/bg/bg-image-11.jpg";
 import WorkArea from "container/work/WorkOne";
-import SkillsArea from "container/skills/SkillsOne";
-import FlexibleImageSlider from "container/flexible-image-slider/FlexibleImageSliderOne";
-import Services from "container/service/ServiceSeven";
-import Testimonial from "container/testimonial/homes/TestimonialFive";
-import ClientLogo from "container/client-logo/homes/ClientLogoOne";
-import CallToAction from "container/call-to-action/pages/CallToActionOne";
+// import SkillsArea from "container/skills/SkillsOne";
+// import FlexibleImageSlider from "container/flexible-image-slider/FlexibleImageSliderOne";
+// import Services from "container/service/ServiceSeven";
+// import Testimonial from "container/testimonial/homes/TestimonialFive";
+// import ClientLogo from "container/client-logo/homes/ClientLogoOne";
+// import CallToAction from "container/call-to-action/pages/CallToActionOne";
 // import FooterOne from "container/footer/FooterOne";
 import Worksecond from "container/work/worksecond"
 import Activities from "container/work/activities"
