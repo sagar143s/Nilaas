@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
-import Parallax, {Layer} from "react-parallax-scroll";
+// import Parallax, {Layer} from "react-parallax-scroll";
 import CallContentVertical from "components/call-to-action/CallContentVertical";
 
 const CallToActionVerticalThree = ({bgColor, bgImage, overlayColor, overlayOpacity}) => {
