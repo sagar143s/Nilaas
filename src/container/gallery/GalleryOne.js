@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, Row, Col} from "react-bootstrap"
-import {LightgalleryProvider} from 'react-lightgallery'
-import "lightgallery.js/dist/css/lightgallery.css";
+// import {LightgalleryProvider} from 'react-lightgallery'
+import "lightgallery/css/lightgallery.css";
 import galleryContent from '../../data/gallery'
 import GalleryItemOne from "components/gallery/GalleryItemOne";
 

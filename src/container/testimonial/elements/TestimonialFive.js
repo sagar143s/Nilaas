@@ -1,6 +1,6 @@
 import React, {useState, useRef, useEffect} from 'react';
 import {Container, Row, Col} from 'react-bootstrap'
-import Slider from 'react-slick'
+// import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.scss'
 import testimonialData from "data/testimonial";
 import TestimonialItemTwo from "components/testimonial/TestimonialItemTwo";

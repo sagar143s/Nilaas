@@ -1,6 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
-import {LightgalleryProvider} from "react-lightgallery";
+// import {LightgalleryProvider} from "react-lightgallery";
 import GalleryItem from "components/gallery/GalleryItemOne";
 
 const GalleryThree = () => {
