@@ -1,7 +1,6 @@
 import React from 'react';
-// import Slider from 'react-slick';
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+
+
 import { Container } from 'react-bootstrap';
 
 import Image1 from '../../../assets/images/about/1.jpg';
