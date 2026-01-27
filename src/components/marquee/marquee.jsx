@@ -48,20 +48,20 @@ const AnotherSlider = () => {
   return (
     <div style={{margin:" 0 0 50px 0"}}>
       <Slider {...settings}>
-        <div className='sliderimage002'><img src={Image1} alt="Another Image 1" /></div>
-        <div className='sliderimage002'><img src={Image2}alt="Another Image 2" /></div>
-        <div className='sliderimage002'><img src={Image3} alt="Another Image 1" /></div>
-        <div className='sliderimage002'><img src={Image4} alt="Another Image 2" /></div>
-        <div className='sliderimage002'><img src={Image5} alt="Another Image 1" /></div>
-        <div className='sliderimage002'><img src={Image6}alt="Another Image 2" /></div>
-        <div className='sliderimage002'><img src={Image7} alt="Another Image 1" /></div>
-        <div className='sliderimage002'><img src={Image1} alt="Another Image 1" /></div>
-        <div className='sliderimage002'><img src={Image2}alt="Another Image 2" /></div>
-        <div className='sliderimage002'><img src={Image3} alt="Another Image 1" /></div>
-        <div className='sliderimage002'><img src={Image4} alt="Another Image 2" /></div>
-        <div className='sliderimage002'><img src={Image5} alt="Another Image 1" /></div>
-        <div className='sliderimage002'><img src={Image6}alt="Another Image 2" /></div>
-        <div className='sliderimage002'><img src={Image7} alt="Another Image 1" /></div>
+        <div className='sliderimage002'><img src={Image1} alt="Marquee brand 1" /></div>
+        <div className='sliderimage002'><img src={Image2} alt="Marquee brand 2" /></div>
+        <div className='sliderimage002'><img src={Image3} alt="Marquee brand 3" /></div>
+        <div className='sliderimage002'><img src={Image4} alt="Marquee brand 4" /></div>
+        <div className='sliderimage002'><img src={Image5} alt="Marquee brand 5" /></div>
+        <div className='sliderimage002'><img src={Image6} alt="Marquee brand 6" /></div>
+        <div className='sliderimage002'><img src={Image7} alt="Marquee brand 7" /></div>
+        <div className='sliderimage002'><img src={Image1} alt="Marquee brand 1" /></div>
+        <div className='sliderimage002'><img src={Image2} alt="Marquee brand 2" /></div>
+        <div className='sliderimage002'><img src={Image3} alt="Marquee brand 3" /></div>
+        <div className='sliderimage002'><img src={Image4} alt="Marquee brand 4" /></div>
+        <div className='sliderimage002'><img src={Image5} alt="Marquee brand 5" /></div>
+        <div className='sliderimage002'><img src={Image6} alt="Marquee brand 6" /></div>
+        <div className='sliderimage002'><img src={Image7} alt="Marquee brand 7" /></div>
         
 
       </Slider>

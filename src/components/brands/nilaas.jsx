@@ -56,7 +56,7 @@ const ModernPortfolioDetails = () => {
                 </Row>
 
                 {/* Video Section */}
-                <Row className="mt--100 mt_md--80 mt_sm--60">
+                {/* <Row className="mt--100 mt_md--80 mt_sm--60">
                     <Col lg={12}>
                         <video
                             ref={videoRef}
@@ -75,15 +75,15 @@ const ModernPortfolioDetails = () => {
                             Your browser does not support the video tag.
                         </video>
                     </Col>
-                </Row>
+                </Row> */}
 
                 {/* Slider Section */}
-                <Row style={{ padding: "50px 0" }}>
+                {/* <Row style={{ padding: "50px 0" }}>
                     <Slider />
-                </Row>
+                </Row> */}
 
                 {/* Portfolio Navigation */}
-                <Row className="mt--100 mt_md--80 mt_sm--60">
+                {/* <Row className="mt--100 mt_md--80 mt_sm--60">
                     <Col lg={12}>
                         <div className="portfolio-nav-list d-flex justify-content-between flex-column flex-md-row">
                             <div className="portfolio-page prev mb-3 mb-md-0">
@@ -104,7 +104,7 @@ const ModernPortfolioDetails = () => {
                             </div>
                         </div>
                     </Col>
-                </Row>
+                </Row> */}
             </Container>
         </div>
     );

@@ -57,7 +57,7 @@ const ModernPortfolioDetails = () => {
 
                                   
                                 </div>
-                            </div>
+                            </div>Apparals
                         </Col>
                     </Row>
               

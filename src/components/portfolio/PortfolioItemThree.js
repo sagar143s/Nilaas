@@ -1,9 +1,9 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
 import BossiniImage from '../../assets/images/new/1.webp';
 import LiNingImage from '../../assets/images/new/4.webp';
 import PeakImage from '../../assets/images/portfolio/portfolio-3.jpg';
 import CciluImage from '../../assets/images/portfolio/portfolio-4.jpg';
+import './PortfolioItemThree.css';
 
 const portfolioData = [
   {
@@ -20,20 +20,7 @@ const portfolioData = [
     category: 'MAKE YOUR OWN WAY12',
     link: '/li-ning',
   },
-  {
-    id: 3,
-    title: 'PEAK',
-    thumb: PeakImage,
-    category: 'ULTIMATE SPORT SHOP',
-    link: '/peak',
-  },
-  {
-    id: 4,
-    title: 'CCILU',
-    thumb: CciluImage,
-    category: 'SUSTAINABLE SHOE DESIGNS',
-    link: '/ccilu',
-  },
+  
   // {
   //   id: 5,
   //   title: 'ARGEVILLE',
@@ -54,30 +41,28 @@ const PortfolioItemThree = ({ id, title, thumb, category, link, className }) => 
   const portfolioItemLink = `${process.env.PUBLIC_URL}${link}`;
 
   return (
-    <Col sm={12} lg={3} key={id}>
-      <div className={`portfolio with-caption mt--30 ${className}`}>
-        <div className="thumb video-with-thumb">
-          <a href={portfolioItemLink}>
-            <img src={thumb} alt={title} style={{borderRadius:"10PX"}} />
-          </a>
+    <div key={id} className={`portfolio-card ${className}`}>
+      <a href={portfolioItemLink} className="portfolio-thumb">
+        <img src={thumb} alt={title} />
+        <span className="thumb-overlay" />
+      </a>
+      <div className="portfolio-caption">
+        <div className="info">
+          <h5 className="portfolio-title">
+            <a href={portfolioItemLink}>{title}</a>
+          </h5>
+          <p className="portfolio-category">{category}</p>
         </div>
-        <div className="caption-bottom text-start">
-          <div className="info">
-            <h5 className="heading heading-h5">
-              <a href={portfolioItemLink}>{title}</a>
-            </h5>
-            <p className="bk_pra">{category}</p>
-          </div>
-        </div>
+        <div className="portfolio-link">→</div>
       </div>
-    </Col>
+    </div>
   );
 };
 
 const PortfolioList = () => {
   return (
-    <Container>
-      <Row className="mt--n30">
+    <div className="portfolio-section">
+      <div className="portfolio-grid">
         {portfolioData.map((item) => (
           <PortfolioItemThree
             key={item.id}
@@ -89,8 +74,8 @@ const PortfolioList = () => {
             className="your-custom-class"
           />
         ))}
-      </Row>
-    </Container>
+      </div>
+    </div>
   );
 };
 
