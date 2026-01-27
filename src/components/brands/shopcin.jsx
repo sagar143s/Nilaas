@@ -1,12 +1,8 @@
-import React, { Fragment, useEffect, useState, useRef  } from 'react';
+import React, { Fragment, useRef  } from 'react';
 import { Col, Container, Row } from "react-bootstrap";
-import SlickSlider from "components/slick";
-import ImageSlider from "components/image-slider";
-import PopupVideo from "components/popup-video";
 import Breadcrumb from "components/breadcrumb/BreadcrumbTwo";
 import breadcrumbBg from "assets/img/bg/5.jpg";
 import portDetailsData from "data/shopcin";
-import videoThumb from "assets/img/portfolio/big-image/portfolio-custom-layout-05-image-01.jpg";
 
 import Slider from "../../components/sliderbrands/shopcin"
 
@@ -24,22 +20,6 @@ const ModernPortfolioDetails = () => {
         videoRef.current.play();
       }
     };
-
-
-    
-
-
-    const NextArrow = ({ className, onClick }) => (
-        <button className={`slick-btn ${className}`} onClick={onClick}>
-            <i className="fa fa-angle-right" />
-        </button>
-    );
-
-    const PrevArrow = ({ className, onClick }) => (
-        <button className={`slick-btn ${className}`} onClick={onClick}>
-            <i className="fa fa-angle-left" />
-        </button>
-    );
 
 
 

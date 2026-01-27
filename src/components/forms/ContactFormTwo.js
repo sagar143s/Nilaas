@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Input from "components/input";
 import Button from "components/button";
 import {Col, Row} from "react-bootstrap";
 
 const ContactFormTwo = () => {
-    const [isHovered, setHovered] = useState(false);
     return (
         <div className="contact-form contact-form--5" style={{border:'1px solid lightgrey',margin:" 0 0 50px 0",borderRadius:"25px"}}>
             <form>

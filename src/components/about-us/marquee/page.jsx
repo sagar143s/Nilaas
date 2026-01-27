@@ -52,12 +52,12 @@ const Page = () => {
   return (
     <Container style={{padding:"50px 0"}}>
       <Slider {...settings}>
-        <img src={Image1} alt="Image 1" style={{ maxWidth: '180px' }} />
-        <img src={Image4} alt="Image 2" style={{ maxWidth: '180px' }} />
-        <img src={Image5} alt="Image 3" style={{ maxWidth: '180px' }} />
-        <img src={Image6} alt="Image 4" style={{ maxWidth: '180px' }} />
-        <img src={Image3} alt="Image 5" style={{ maxWidth: '180px' }} />
-        <img src={Image2} alt="Image 6" style={{ maxWidth: '180px' }} />
+        <img src={Image1} alt="Gallery 1" style={{ maxWidth: '180px' }} />
+        <img src={Image4} alt="Gallery 2" style={{ maxWidth: '180px' }} />
+        <img src={Image5} alt="Gallery 3" style={{ maxWidth: '180px' }} />
+        <img src={Image6} alt="Gallery 4" style={{ maxWidth: '180px' }} />
+        <img src={Image3} alt="Gallery 5" style={{ maxWidth: '180px' }} />
+        <img src={Image2} alt="Gallery 6" style={{ maxWidth: '180px' }} />
       </Slider>
     </Container>
   );
