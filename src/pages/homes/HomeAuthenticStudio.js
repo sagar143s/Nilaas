@@ -27,7 +27,7 @@ const HomeAuthenticStudio = () => {
                 <Video />
                 <Services />
                 <Portfolios />
-                <Marquee />
+                {/* <Marquee />More about us */}
                 <Footer />
             </LayoutDefault>
         </Fragment>

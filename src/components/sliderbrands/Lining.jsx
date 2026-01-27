@@ -11,32 +11,39 @@ import './common.css'
 
 const AnotherSlider = () => {
   const settings = {
-    dots: false,
+    dots: true,
     infinite: true,
-    speed: 1000,
+    speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
+    pauseOnHover: true,
+    centerMode: false,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          infinite: true,
-        
-        }
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 1,
+          slidesToShow: 3,
           slidesToScroll: 1,
         }
       },
       {
-        breakpoint: 480,
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        }
+      },
+      {
+        breakpoint: 576,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -46,17 +53,15 @@ const AnotherSlider = () => {
   };
 
   return (
-    <div>
+    <div className='lining-slider-wrapper'>
       <Slider {...settings}>
         <div className='sliderimage'><img src={Image1} alt="Lining 1" /></div>
-        <div className='sliderimage'><img src={Image2}alt="Lining 2" /></div>
+        <div className='sliderimage'><img src={Image2} alt="Lining 2" /></div>
         <div className='sliderimage'><img src={Image3} alt="Lining 3" /></div>
         <div className='sliderimage'><img src={Image4} alt="Lining 4" /></div>
         <div className='sliderimage'><img src={Image5} alt="Lining 5" /></div>
-        <div className='sliderimage'><img src={Image6}alt="Lining 6" /></div>
+        <div className='sliderimage'><img src={Image6} alt="Lining 6" /></div>
         <div className='sliderimage'><img src={Image7} alt="Lining 7" /></div>
-        {/* <div className='sliderimage'><img src={Image8} alt="Lining 8" /></div> */}
-
       </Slider>
     </div>
   );

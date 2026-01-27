@@ -9,14 +9,14 @@ const portfolioData = [
     title: 'Nilaas',
     thumb: BossiniImage,
     category: 'FAMILY SHOPING STATION112',
-    link: '/bossini',
+    link: '/nilaas',
   },
   {
     id: 2,
     title: 'QuickFynd',
     thumb: LiNingImage,
     category: 'MAKE YOUR OWN WAY12',
-    link: '/li-ning',
+    link: '/quickfynd',
   },
   
   // {

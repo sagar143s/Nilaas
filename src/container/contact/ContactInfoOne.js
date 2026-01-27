@@ -43,7 +43,7 @@ const data = [
     {
         id: 1,
         title: "Visit our Office",
-        content: "Kerala, India"
+        content: "MLA Road Kunnamangalam, Calicut, Kerala, India"
     },
     {
         id:2,

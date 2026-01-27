@@ -2,7 +2,8 @@ import React from 'react';
 import { Col, Container, Row } from "react-bootstrap";
 import Breadcrumb from "components/breadcrumb/BreadcrumbTwo";
 import breadcrumbBg from "assets/img/bg/bg-image-39.jpg";
-import portDetailsData from "data/nilaas"; // Can be replaced with Nilaas data
+import portDetailsData from "data/nilaas";
+import Slider from "components/sliderbrands/Lining";
 
 const ModernPortfolioDetails = () => {
     return (
@@ -58,14 +59,12 @@ const ModernPortfolioDetails = () => {
                 {/* <Row className="mt--100 mt_md--80 mt_sm--60">
                     <Col lg={12}>
                         <video
-                            ref={videoRef}
                             autoPlay
                             muted
                             controls={false}
                             width="100%"
                             height="auto"
                             style={{ borderRadius: "25px" }}
-                            onEnded={handleVideoEnded}
                         >
                             <source
                                 src="https://res.cloudinary.com/dzwyhgoer/video/upload/v1704880674/wpmoda/Bossini_Seasonal_V1_2_d7cvde.mp4"
@@ -77,9 +76,9 @@ const ModernPortfolioDetails = () => {
                 </Row> */}
 
                 {/* Slider Section */}
-                {/* <Row style={{ padding: "50px 0" }}>
+                <Row style={{ padding: "50px 0" }}>
                     <Slider />
-                </Row> */}
+                </Row>
 
                 {/* Portfolio Navigation */}
                 {/* <Row className="mt--100 mt_md--80 mt_sm--60">

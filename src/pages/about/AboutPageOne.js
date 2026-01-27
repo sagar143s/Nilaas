@@ -8,6 +8,7 @@ import PopupMobileMenu from "components/popup/PopupMobileMenu";
 import Breadcrumb from "components/breadcrumb/BreadcrumbTwo";
 import breadcrumbBg from "assets/img/bg/bg-image-11.jpg";
 import WorkArea from "container/work/WorkOne";
+import ClientLogo from "container/client-logo/homes/ClientLogoThree";
 // import SkillsArea from "container/skills/SkillsOne";
 // import FlexibleImageSlider from "container/flexible-image-slider/FlexibleImageSliderOne";
 // import Services from "container/service/ServiceSeven";
@@ -44,6 +45,7 @@ const AboutPageOne = () => {
                 {/* <FlexibleImageSlider/> */}
                 <Marquee/>
                 <Activities/>
+                <ClientLogo/>
                 <Video/>
                 <TeamMembers/>
                 <Container>

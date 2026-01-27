@@ -4,7 +4,7 @@ import Navbar from "./elements/navbar/Navbar";
 import HeaderContainer from "container/header/HeaderContainerOne";
 import HeaderConfig from "components/header/elements/config/HeaderConfigOne";
 
-import logoWhite from 'assets/img/logo/brook-white.png'
+import logoWhite from 'assets/img/logo/Asset 8.png'
 
 const HeaderTwo = () => {
     return (
@@ -14,7 +14,7 @@ const HeaderTwo = () => {
             sticky={true}
             classes="position-from--top"
         >
-            <div className="header-left">
+            <div className="header-left" style={{ maxWidth: '120px' }}>
                 <Logo logo={logoWhite}/>
             </div>
 

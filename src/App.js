@@ -287,7 +287,7 @@ const App = () => {
                         element={<ContactClassic/>}
                     />
                     <Route
-                        path={`${process.env.PUBLIC_URL + '/Bossini'}`}
+                        path={`${process.env.PUBLIC_URL + '/nilaas'}`}
                         element={<Bossini/>}
                     />
                      <Route
@@ -299,7 +299,7 @@ const App = () => {
                         element={<Argeville/>}
                     />
                      <Route
-                        path={`${process.env.PUBLIC_URL + '/Li-ning'}`}
+                        path={`${process.env.PUBLIC_URL + '/quickfynd'}`}
                         element={<Lining/>}
                     />
                      <Route

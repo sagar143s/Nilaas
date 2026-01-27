@@ -95,7 +95,7 @@ const ModernPortfolioDetails = () => {
                             <div className="portfolio-nav-list">
                                 <div className="portfolio-page prev">
                                     <div className="inner">
-                                        <a href={`${process.env.PUBLIC_URL + "/li-ning"}`}>
+                                        <a href={`${process.env.PUBLIC_URL + "/quickfynd"}`}>
                                             <p>Prev</p>
                                             <h3 className="heading heading-h3">Li-Ning<br/>MAKE YOUR OWN WAY</h3>
                                         </a>

@@ -3,7 +3,7 @@ import {Helmet} from "react-helmet";
 import LayoutDefault from "layouts/LayoutDefault";
 import Header from "components/header/HeaderThree";
 import Footer from "container/footer/FooterFour";
-import LiningMain from "../../components/brands/lining"
+import LiningMain from "../../components/brands/quickfynd"
 
 const Bossini = () => {
   return (
