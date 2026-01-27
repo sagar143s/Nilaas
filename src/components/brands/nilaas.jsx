@@ -1,26 +1,16 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Col, Container, Row } from "react-bootstrap";
 import Breadcrumb from "components/breadcrumb/BreadcrumbTwo";
 import breadcrumbBg from "assets/img/bg/bg-image-39.jpg";
 import portDetailsData from "data/nilaas"; // Can be replaced with Nilaas data
-import Slider from "components/sliderbrands/bossini"; // Replace with Nilaas slider if available
 
 const ModernPortfolioDetails = () => {
-    const videoRef = useRef(null);
-
-    const handleVideoEnded = () => {
-        if (videoRef.current) {
-            videoRef.current.currentTime = 0;
-            videoRef.current.play();
-        }
-    };
-
     return (
         <div className="brook-portfolio-details bg_color--1 ptb--0 ptb-md--0 ptb-sm--0">
             {/* Breadcrumb Section */}
             <Breadcrumb bgImg={breadcrumbBg} />
 
-            <Container className="pt-5"> {/* Add spacing inside container instead of top padding */}
+            <Container className="pt-5 pb-5"> {/* Add spacing inside container instead of top padding */}
                 {/* Portfolio Header */}
                 <Row>
                     <Col lg={5}>
@@ -45,10 +35,19 @@ const ModernPortfolioDetails = () => {
                             <h6 className="heading heading-h6">Our Brand Story</h6>
                             <div className="desc mt--20">
                                 <p className="bk_pra">
-                                    Nilaas is a Kerala-born fashion brand delivering premium-quality apparel, footwear, and lifestyle essentials. We combine modern trends, comfort, and craftsmanship to serve style-conscious communities.
+                                    Founded in 2025, <strong>Nilaas</strong> is a Kerala-born fashion brand created with a vision to bring premium-quality fashion closer to local communities. Inspired by Kerala’s culture, lifestyle, and evolving fashion sensibilities, Nilaas blends tradition with modern design to create timeless yet trendy collections.
                                 </p>
+
                                 <p className="bk_pra mt-3">
-                                    Rooted in tradition yet inspired by contemporary design, Nilaas redefines local fashion with creativity, quality, and authenticity.
+                                    Nilaas offers a complete fashion destination for <strong>men, women, and kids</strong>, covering everyday wear, casual outfits, ethnic-inspired styles, and modern fashion essentials. Every product is thoughtfully designed to balance comfort, durability, and contemporary aesthetics.
+                                </p>
+
+                                <p className="bk_pra mt-3">
+                                    With a strong focus on quality craftsmanship and fabric selection, Nilaas ensures that each piece reflects attention to detail and long-lasting value. From stylish clothing and footwear to lifestyle fashion essentials, our collections are tailored for the dynamic lifestyle of today’s generation.
+                                </p>
+
+                                <p className="bk_pra mt-3">
+                                    Rooted in Kerala and driven by creativity, <strong>Nilaas</strong> aims to grow as a trusted fashion brand that celebrates individuality, confidence, and authenticity—making premium fashion accessible for everyone.
                                 </p>
                             </div>
                         </div>

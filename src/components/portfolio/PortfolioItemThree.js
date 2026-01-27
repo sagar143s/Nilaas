@@ -1,8 +1,6 @@
 import React from 'react';
 import BossiniImage from '../../assets/images/new/1.webp';
 import LiNingImage from '../../assets/images/new/4.webp';
-import PeakImage from '../../assets/images/portfolio/portfolio-3.jpg';
-import CciluImage from '../../assets/images/portfolio/portfolio-4.jpg';
 import './PortfolioItemThree.css';
 
 const portfolioData = [
