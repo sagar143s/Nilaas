@@ -100,7 +100,7 @@ Pierre Roche Perfumes.</p>
                         <Row style={{padding:"50px 0"}}>
                            <Slider/>
                         </Row>
-               <Container>
+               {/* <Container>
                     <Row className="mt--100 mt_md--80 mt_sm--60">
                         <Col lg={12}>
                             <div className="portfolio-nav-list">
@@ -123,7 +123,7 @@ Pierre Roche Perfumes.</p>
                             </div>
                         </Col>
                     </Row>
-                    </Container>
+                    </Container> */}
             </div>
         </Fragment>
           

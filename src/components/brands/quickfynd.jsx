@@ -91,7 +91,7 @@ const ModernPortfolioDetails = () => {
             </Col>
           </Row>
 
-          <Row className="mt--150 mt_md--120 mt_sm--100">
+          {/* <Row className="mt--150 mt_md--120 mt_sm--100">
             <Col lg={12}>
               <video
                 ref={videoRef}
@@ -110,7 +110,7 @@ const ModernPortfolioDetails = () => {
                 Your browser does not support the video tag.
               </video>
             </Col>
-          </Row>
+          </Row> */}
         </Container>
 
         <Row style={{ padding: "50px 0" }}>
