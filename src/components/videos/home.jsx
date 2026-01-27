@@ -1,9 +1,7 @@
 import React from 'react';
-import { useMediaQuery } from 'react-responsive';
 import { Container } from 'react-bootstrap';
 
 const Home = () => {
-  const isMobile = useMediaQuery({ maxWidth: 767 });
 
   return (
     <Container style={{padding:"0 0 50px 0"}} >

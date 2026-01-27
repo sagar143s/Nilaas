@@ -1,7 +1,6 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import PortfolioItem from "components/portfolio/PortfolioItemOne";
-import portfolios from "data/portfolio/portfolio-one.json";
 
 const PortfolioGrid = ({wide}) => {
     return (

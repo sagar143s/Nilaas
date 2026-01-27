@@ -1,7 +1,4 @@
 import React from 'react';
-import {Col, Container, Row} from "react-bootstrap";
-import TeamMemberItem from "components/team-member/TeamMemberItemThree";
-import teamMembers from "data/team-member";
 
 const TeamMemberGrid = () => {
     return (

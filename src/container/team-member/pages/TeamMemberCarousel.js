@@ -1,8 +1,4 @@
 import React from 'react';
-import {Col, Container, Row} from "react-bootstrap";
-import TeamMemberItemTwo from "components/team-member/TeamMemberItemTwo";
-import SlickSlider from "components/slick";
-import teamMembers from "data/team-member";
 
 const TeamMemberCarousel = () => {
 
@@ -20,27 +16,6 @@ const TeamMemberCarousel = () => {
                 <i className="fa fa-angle-left"/>
             </button>
         );
-    };
-
-    const settings = {
-        slidesToShow: 3,
-        infinite: false,
-        prevArrow: <PrevArrow/>,
-        nextArrow: <NextArrow/>,
-        responsive: [
-            {
-                "breakpoint": 801,
-                "settings": {
-                    slidesToShow: 2
-                }
-            },
-            {
-                "breakpoint": 601,
-                "settings": {
-                    slidesToShow: 1
-                }
-            }
-        ]
     };
 
     return (

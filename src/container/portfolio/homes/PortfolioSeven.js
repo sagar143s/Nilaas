@@ -1,7 +1,5 @@
 import React from 'react';
-import {Col, Container, Row} from "react-bootstrap";
-import SectionTitle from "components/section-title/SectionTitleFour";
-import portfolios from '../../../data/portfolio/portfolio-two.json';
+import {Container} from "react-bootstrap";
 import PortfolioItem from "components/portfolio/PortfolioItemThree";
 
 const PortfolioSeven = ({className}) => {
