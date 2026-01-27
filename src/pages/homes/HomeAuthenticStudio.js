@@ -8,7 +8,6 @@ import SliderAuthenticStudio from "container/slider/SliderAuthenticStudio";
 import About from "container/about-us/AboutAuthenticStudio";
 import Services from "container/service/ServiceSix";
 import Portfolios from "container/portfolio/homes/PortfolioSeven";
-import Marquee from "components/marquee/marquee";
 import Video from "components/videos/home";
 
 const HomeAuthenticStudio = () => {
@@ -24,7 +23,7 @@ const HomeAuthenticStudio = () => {
                 <Header />
                 <SliderAuthenticStudio />
                 <About />
-                <Video />
+                {/* <Video /> */}
                 <Services />
                 <Portfolios />
                 {/* <Marquee />More about us */}

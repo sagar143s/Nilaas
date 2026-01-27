@@ -1,4 +1,4 @@
-import React, { Fragment, useRef } from 'react';
+import React, { Fragment } from 'react';
 import { Col, Container, Row } from "react-bootstrap";
 import Breadcrumb from "components/breadcrumb/BreadcrumbTwo";
 import breadcrumbBg from "assets/img/bg/3.jpg";
@@ -7,15 +7,6 @@ import portDetailsData from "data/lining";
 import Slider from "../sliderbrands/Lining";
 
 const ModernPortfolioDetails = () => {
-  const videoRef = useRef(null);
-
-  const handleVideoEnded = () => {
-    if (videoRef.current) {
-      videoRef.current.currentTime = 0;
-      videoRef.current.play();
-    }
-  };
-
   return (
     <Fragment>
       <Breadcrumb bgImg={breadcrumbBg} />
