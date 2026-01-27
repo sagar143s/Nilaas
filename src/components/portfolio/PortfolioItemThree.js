@@ -4,21 +4,20 @@ import LiNingImage from '../../assets/images/new/4.webp';
 import './PortfolioItemThree.css';
 
 const portfolioData = [
-  {
-    id: 1,
-    title: 'Nilaas',
-    thumb: BossiniImage,
-    category: 'FAMILY SHOPING STATION112',
-    link: '/nilaas',
-  },
-  {
-    id: 2,
-    title: 'QuickFynd',
-    thumb: LiNingImage,
-    category: 'MAKE YOUR OWN WAY12',
-    link: '/quickfynd',
-  },
-  
+{
+  id: 1,
+  title: 'Nilaas',
+  thumb: BossiniImage,
+  category: 'Fashion & Lifestyle Brand',
+  link: '/nilaas',
+},
+{
+  id: 2,
+  title: 'QuickFynd',
+  thumb: LiNingImage,
+  category: 'Multi-Product Online Store',
+  link: '/quickfynd',
+},
   // {
   //   id: 5,
   //   title: 'ARGEVILLE',
