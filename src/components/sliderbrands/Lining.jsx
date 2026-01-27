@@ -49,14 +49,14 @@ const AnotherSlider = () => {
   return (
     <div>
       <Slider {...settings}>
-        <div className='sliderimage'><img src={Image1} alt="Another Image 1" /></div>
-        <div className='sliderimage'><img src={Image2}alt="Another Image 2" /></div>
-        <div className='sliderimage'><img src={Image3} alt="Another Image 1" /></div>
-        <div className='sliderimage'><img src={Image4} alt="Another Image 2" /></div>
-        <div className='sliderimage'><img src={Image5} alt="Another Image 1" /></div>
-        <div className='sliderimage'><img src={Image6}alt="Another Image 2" /></div>
-        <div className='sliderimage'><img src={Image7} alt="Another Image 1" /></div>
-        {/* <div className='sliderimage'><img src={Image8} alt="Another Image 1" /></div> */}
+        <div className='sliderimage'><img src={Image1} alt="Lining 1" /></div>
+        <div className='sliderimage'><img src={Image2}alt="Lining 2" /></div>
+        <div className='sliderimage'><img src={Image3} alt="Lining 3" /></div>
+        <div className='sliderimage'><img src={Image4} alt="Lining 4" /></div>
+        <div className='sliderimage'><img src={Image5} alt="Lining 5" /></div>
+        <div className='sliderimage'><img src={Image6}alt="Lining 6" /></div>
+        <div className='sliderimage'><img src={Image7} alt="Lining 7" /></div>
+        {/* <div className='sliderimage'><img src={Image8} alt="Lining 8" /></div> */}
 
       </Slider>
     </div>

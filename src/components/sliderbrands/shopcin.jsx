@@ -48,13 +48,13 @@ const AnotherSlider = () => {
   return (
     <div>
       <Slider {...settings}>
-        <div className='sliderimage'><img src={Image1} alt="Another Image 1" /></div>
-        <div className='sliderimage'><img src={Image2}alt="Another Image 2" /></div>
-        <div className='sliderimage'><img src={Image3} alt="Another Image 1" /></div>
-        <div className='sliderimage'><img src={Image4} alt="Another Image 2" /></div>
-        <div className='sliderimage'><img src={Image5} alt="Another Image 1" /></div>
-        <div className='sliderimage'><img src={Image6}alt="Another Image 2" /></div>
-        <div className='sliderimage'><img src={Image7} alt="Another Image 1" /></div>
+        <div className='sliderimage'><img src={Image1} alt="Shopcin 1" /></div>
+        <div className='sliderimage'><img src={Image2}alt="Shopcin 2" /></div>
+        <div className='sliderimage'><img src={Image3} alt="Shopcin 3" /></div>
+        <div className='sliderimage'><img src={Image4} alt="Shopcin 4" /></div>
+        <div className='sliderimage'><img src={Image5} alt="Shopcin 5" /></div>
+        <div className='sliderimage'><img src={Image6}alt="Shopcin 6" /></div>
+        <div className='sliderimage'><img src={Image7} alt="Shopcin 7" /></div>
 
       </Slider>
     </div>

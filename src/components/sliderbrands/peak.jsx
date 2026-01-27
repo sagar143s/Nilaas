@@ -49,14 +49,14 @@ const AnotherSlider = () => {
   return (
     <div>
       <Slider {...settings}>
-        <div className='sliderimage'><img src={Image1} alt="Another Image 1" /></div>
-        <div className='sliderimage'><img src={Image2}alt="Another Image 2" /></div>
-        <div className='sliderimage'><img src={Image3} alt="Another Image 1" /></div>
-        <div className='sliderimage'><img src={Image4} alt="Another Image 2" /></div>
-        <div className='sliderimage'><img src={Image5} alt="Another Image 1" /></div>
-        <div className='sliderimage'><img src={Image6}alt="Another Image 2" /></div>
-        <div className='sliderimage'><img src={Image7} alt="Another Image 1" /></div>
-        <div className='sliderimage'><img src={Image8} alt="Another Image 2" /></div>
+        <div className='sliderimage'><img src={Image1} alt="Peak 1" /></div>
+        <div className='sliderimage'><img src={Image2}alt="Peak 2" /></div>
+        <div className='sliderimage'><img src={Image3} alt="Peak 3" /></div>
+        <div className='sliderimage'><img src={Image4} alt="Peak 4" /></div>
+        <div className='sliderimage'><img src={Image5} alt="Peak 5" /></div>
+        <div className='sliderimage'><img src={Image6}alt="Peak 6" /></div>
+        <div className='sliderimage'><img src={Image7} alt="Peak 7" /></div>
+        <div className='sliderimage'><img src={Image8} alt="Peak 8" /></div>
 
       </Slider>
     </div>

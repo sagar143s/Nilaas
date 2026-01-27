@@ -2,22 +2,6 @@ import React from 'react';
 
 const TeamMemberCarousel = () => {
 
-    const NextArrow = ({className, onClick}) => {
-        return (
-            <button className={`slick-btn ${className}`} onClick={onClick}>
-                <i className="fa fa-angle-right"/>
-            </button>
-        );
-    };
-
-    const PrevArrow = ({className, onClick}) => {
-        return (
-            <button className={`slick-btn ${className}`} onClick={onClick}>
-                <i className="fa fa-angle-left"/>
-            </button>
-        );
-    };
-
     return (
         <div className="brook-team-area bg_color--1 mt--180 mt_sm--100">
             {/* <Container>
