@@ -8,7 +8,6 @@ import SliderAuthenticStudio from "container/slider/SliderAuthenticStudio";
 import About from "container/about-us/AboutAuthenticStudio";
 import Services from "container/service/ServiceSix";
 import Portfolios from "container/portfolio/homes/PortfolioSeven";
-import Video from "components/videos/home";
 
 const HomeAuthenticStudio = () => {
     return (
