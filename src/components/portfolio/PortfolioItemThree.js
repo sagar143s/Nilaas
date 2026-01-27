@@ -4,8 +4,6 @@ import BossiniImage from '../../assets/images/new/1.webp';
 import LiNingImage from '../../assets/images/new/4.webp';
 import PeakImage from '../../assets/images/portfolio/portfolio-3.jpg';
 import CciluImage from '../../assets/images/portfolio/portfolio-4.jpg';
-import ArgevilleImage from '../../assets/images/portfolio/portfolio-5.jpg';
-import Shopcin from '../../assets/images/portfolio/Artboard 6.jpg'
 
 const portfolioData = [
   {

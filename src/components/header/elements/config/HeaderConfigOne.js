@@ -5,11 +5,6 @@ const HeaderConfigOne = () => {
     const body = document.querySelector('body');
     const html = document.querySelector('html');
 
-    const searchHandler = () => {
-        body.classList.add('page-search-popup-opened');
-        html.style.overflow = 'hidden'
-    };
-
     const mobileMenuHandler = () => {
         body.classList.add('popup-mobile-menu-wrapper');
         html.style.overflow = 'hidden'

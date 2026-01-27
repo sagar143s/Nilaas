@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from "../../assets/logo/Asset 3.png";
 import Navbar from "./elements/navbar/Navbar";
-import HeaderConfig from "./elements/config/HeaderConfigTwo";
 import HeaderContainer from "container/header/HeaderContainerOne";
 
 import logo from 'assets/img/logo/brook-black.png'
